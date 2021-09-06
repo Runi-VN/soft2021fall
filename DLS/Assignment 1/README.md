@@ -1,5 +1,5 @@
 # DLS-assignment 1
-As part of group 2b this repositor is dedicated to case II.
+As part of group 2b this repository is dedicated to case II.
 
 ## Assignment description
 (Taken from the assignment1.docx file)
