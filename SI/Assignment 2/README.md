@@ -30,11 +30,34 @@ The service consumer–provider relationship is governed by a standardized servi
 
 
 ### What are the advantages and disadvantages of applying it in enterprise applications development? 
-```diff
-- missing
-```
+
+I feel like SOA would be harder to implement and/or refactor in an existing system that could be described as "monolithic". SOA is fit for one type of system (i.e. microservices) rather than another. With that said, it is not impossible, and there are definitely companies that have made the switch and applied these practices to an aready tightly coupled system.
+
+**Advantages**
+- Reusability
+  - The self contained services can be used in other applications.
+- Maintainability
+  - Services don’t influence each other and because of that, updating, maintaining or refactoring a service only affects the service itself. 
+- Testability
+  - Individual services are easier to debug and test since their area of influence is limited to the service. 
+- Independence
+  - Services are independent of the platform, since they communicate with other applications through common language. 
+- Scalable
+  - A single service can be run in several instances on different servers at the same time, increasing the scalability. 
+- Quality
+  - The reusability of the services minimizes code redundancies, which improves the quality of the code.  
+   
+**Disadvantages**
+- Performance/overhead
+  - Services-to-service interaction requires validation of the input parameters, which reduces the performance
+- Service Management
+  - Service-to-service messaging growth is high and the management of this can be challenging and requires enough bandwidth for this.  
+- High Cost
+  - Initial investment in implementing SOA are high in terms of development and technology.
 
 ### Which basic principles should the developers of SOA consider?
+This is not touched on by SOA in itself but rather by implementations of SOA. There are a number of those and therefore prnciples. The most common ones have been noted on wikipedia.
+
 See https://en.wikipedia.org/wiki/Service-oriented_architecture#Principles.
 
 ## Part 2
@@ -51,15 +74,25 @@ The manifesto is originally written as so:
 
 Where each item is prioritized by the leftmost part.
 
+I don't necessarily want to change up the order, as I'm sure the creators are more fit than I At the same time their choices make sense to me.  
 If I were to prioritize any different it would be like so:
-```diff
-- missing
-```
+
+1. Business value over technical strategy
+3. **Intrinsic interoperability over custom integration**
+4. **Shared services over specific-purpose implementations** 
+2. Strategic goals over project-specific benefits
+5. Flexibility over optimization
+6. Evolutionary refinement over pursuit of initial perfection
+
+Point 3 and 4 was moved up to point 2 and 3. This is simply because I feel like point 2 may not be worth prioritizing over point 3 and 4, as I feel they should be the "standard".
+
 
 ## Sources
 - https://en.wikipedia.org/wiki/Service-oriented_architecture
 - https://en.wikipedia.org/wiki/Service-orientation
 - http://www.soa-manifesto.org/
+- https://www.xenonstack.com/insights/service-oriented-architecture
+- https://techspirited.com/advantages-disadvantages-of-service-oriented-architecture-soa
 
 ## Other
 - https://en.wikipedia.org/wiki/Web_Services_Discovery
