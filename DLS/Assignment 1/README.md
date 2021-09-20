@@ -22,3 +22,5 @@ The model should be accompanied by a short textual walk-through.
 •	What technologies do you find useful?  
 •	What challenges do you have in working with? 
 
+## Turnin
+See `DLS-Assignment1_2a_2b.pdf`.
