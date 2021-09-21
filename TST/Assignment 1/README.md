@@ -69,6 +69,7 @@ What was positive and good about using TDD?
 
 What was annoying or difficult?  
 - I had to refactor a few times.
+- Had not setup Junit 5 in IntelliJ before. Took some time.
 
 What surprised you?  
 - The second TDD, the roman to arabic converter, was way easier once I had finished the process once in the temperature converter. This may be because it has been some time since I last used TDD.
