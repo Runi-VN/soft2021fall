@@ -12,7 +12,8 @@
 5. The bullet hit the man, but the man wore protective gear.
 6. The bullet hit the man, and he would have died, if it weren't for an intervention.
 7. The man was invincible
-8. Anything or nothing was real
+8. Something was not real
+9. Nothing was real
 
 Or any combination of the above.
 
