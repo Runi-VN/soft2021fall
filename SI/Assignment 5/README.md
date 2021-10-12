@@ -1,7 +1,7 @@
 # Assignment 5 - EIP
+_Scroll down for the assignment results_ 
 
 ## Subject wordlist
-_Scroll down for the assignment results_ 
 
 ### EIP
 _**E**nterprise **I**ntegration **P**atterns_
