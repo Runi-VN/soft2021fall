@@ -1,6 +1,8 @@
 # Assignment 5 - EIP
 
-## Assignment wordlist
+## Subject wordlist
+_Scroll down for the assignment results_ 
+
 ### EIP
 _**E**nterprise **I**ntegration **P**atterns_
 - Just like we have Design Patterns used for architectural choices in System Development, we have Integration Patterns used for System Integration. The patterns are proven solutions to the often-tackled problems of Enterprise Integration.
