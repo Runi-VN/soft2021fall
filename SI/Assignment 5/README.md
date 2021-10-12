@@ -33,7 +33,7 @@ _**E**xtract, **T**ransform, **L**oad.
 - Data Integration
 - Application Integration
 
-## Assignment descriptiopn
+## Assignment description
 Read [ch. 3](https://www.enterpriseintegrationpatterns.com/docs/EnterpriseIntegrationPatterns_HohpeWoolf_ch03.pdf) and extract at least 10 terms related to System Integration. Create a glossary of these terms.
 
 ## Glossary
